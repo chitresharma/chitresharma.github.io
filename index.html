@@ -18,6 +18,11 @@
   #main {margin-left: 120px}
   /* Remove margins from "page content" on small screens */
   @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+  .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
   </style>
 </head>
 
@@ -64,8 +69,8 @@
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h3 class="w3-jumbo"><span class="w3-hide-small"></span> Dr. Chitresh Kumar Sharma</h3>
-    <p>M.Ch. Endocrine Surgery</p>
     <img src="images/self/11.png" alt="boy" class="w3-image" width="992" height="1108">
+    <p>M.Ch. Endocrine Surgery</p>
   </header>
 
   <!-- About Section -->
@@ -142,7 +147,7 @@
     <!-- Grid for photos -->
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-full">
-        <img src="images/group/12.jpeg" style="width:100%">
+        <img src="images/gallery/13.jpeg" style="width:100%">
       </div>
     </div>
   <!-- End About Section -->
@@ -150,21 +155,14 @@
   
   <!-- Portfolio Section -->
   <div class="w3-padding-64 w3-content" id="research">
-    <h2 class="w3-text-light-grey">Selected work</h2>
+    <h2 class="w3-text-light-grey">Research work</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p class="w3-text-light-grey">Fluorescence guided breast conserving surgery</p>
 
-    <!-- Grid for photos -->
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-full">
         <img src="images/1.png" style="width:100%">
-      </div>
-
-      <!-- <div class="w3-half">
-        <img src="images/test/underwater.jpg" style="width:100%">
-        <img src="images/test/chef.jpg" style="width:100%">
-      </div> -->
-    <!-- End photo grid -->
+    </div>
+    <p class="w3-text-light-grey center">Fluorescence guided breast conserving surgery</p>
 
     <h3 class="w3-padding-24 w3-text-light-grey">Research Projects</h3>
     <li><b>CSIR project:</b> <i>“Fluorescence guided identification of tumor margins during breast conservation surgery”at Department of Surgical Disciplines, AIIMS, New Delhi.</i></li>
@@ -201,10 +199,37 @@
     <li>Kumar C, Mishra A. Prospective Randomized Controlled Trial on the Use of Flexible Reinforced Laryngeal Mask Airway (LMA) during Total Thyroidectomy: Effects on Postoperative Laryngopharyngeal Symptoms: Reply. World J Surg. 2015;39(3):810</li>
     <li>Meena RN, Kumar C, Khanna R, Sharma V. Endoscopic versus Microdiscectomny In Lumber Disc Prolapsed: A Prospective Study. IJDS 2010;2(3):116-124.</li>
     <li>Agarwal D, Lahiri T K, Prasad S, Kumar C. Giant Cystic Teratoma of the Mediastinum: The Ind. Pract.2008;61(1):41-44</li>
-
-
     </div>
   </div>
+
+
+
+
+  <!-- Gallery Section -->
+  <div class="w3-padding-64 w3-content" id="gallery">
+    <h2 class="w3-text-light-grey">Gallery</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="images/gallery/1.jpeg" style="width:100%"><p class="w3-text-light-grey">Holi celebration inside the SGPGIMS, Lucknow campus</p>
+        <img src="images/gallery/3.jpeg" style="width:100%"><p class="w3-text-light-grey">With Prof Martin Waltz, Dr Ritesh, Dr Om Prakash, Dr Chandan @ IAESCON 2014</p>
+        <img src="images/gallery/5.jpeg" style="width:100%"><p class="w3-text-light-grey">Presenting a poster @ American Thyroid Association Annual Conference 2014</p>
+        <img src="images/gallery/7.jpeg" style="width:100%"><p class="w3-text-light-grey">International faculties @ Pre-conference AsAESCON 2018, Robotic Thyroidectomy workshop, AIIMS New Delhi</p>
+        <img src="images/gallery/9.jpeg" style="width:100%"><p class="w3-text-light-grey">With my teachers & seniors @ IAESCON 2018</p>
+        <img src="images/gallery/11.jpeg" style="width:100%"><p class="w3-text-light-grey">Foundation stone of AIIMS Bilaspur laid by our PM Modi Ji</p>
+      </div>
+
+      <div class="w3-half">
+        <img src="images/gallery/2.jpeg" style="width:100%"><p class="w3-text-light-grey">Convocation day with batchmates</p>
+        <img src="images/gallery/4.jpeg" style="width:100%"><p class="w3-text-light-grey">Prof SK Mishra & Entire AsAES 2018 team, New Delhi</p><br>
+        <img src="images/gallery/6.jpeg" style="width:100%"><p class="w3-text-light-grey">Prof Anurag and AIIMS team with international fellows @ SGPGI Breast course 2016</p>
+        <img src="images/gallery/8.jpeg" style="width:100%"><p class="w3-text-light-grey">With Prof Anurag, Dr Chandan, Dr Ramya, Dr Kaustubha, Dr Kavindra @ IAESCON 2017</p>
+        <img src="images/gallery/10.jpeg" style="width:100%"><p class="w3-text-light-grey">With my teachers & seniors @ IAESCON 2019</p>
+        <img src="images/gallery/12.jpeg" style="width:100%"><p class="w3-text-light-grey">Inaugural ceremony with our co-faculties and President AIIMS Bilaspur</p>
+      </div>
+  </div>
+
+
 
   <!-- Contact Section -->
   <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
@@ -212,13 +237,15 @@
     <hr style="width:200px" class="w3-opacity">
 
     <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
-    </div><br>
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Bilaspur, Himachal Pradesh, INDIA</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +91 xxxx-xxxx-xx</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: drk.chitresh@gmail.com</p>
+    </div>
+    <br>
+    
     <p>Let's get in touch. Send me a message:</p>
 
-    <form action="/action_page.php" target="_blank">
+    <!-- <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
@@ -228,11 +255,14 @@
           <i class="fa fa-paper-plane"></i> SEND MESSAGE
         </button>
       </p>
-    </form>
+    </form> -->
   <!-- End Contact Section -->
   </div>
   
-    <!-- Footer -->
+
+
+
+  <!-- Footer -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
@@ -240,7 +270,8 @@
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    <p class="w3-medium">Developed by: Manoj Kaushik </p>
+    <!-- <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
   <!-- End footer -->
   </footer>
 
